@@ -357,7 +357,7 @@ void search_by_phone(struct Addressbook *addressbook,char *phone){
                                                         char new_phoneno[20];
                                                         printf("Enter new phonenumber: ");
                                                         scanf("%s",new_phoneno);
-                                                        if(gmail_verify(addressbook,new_phoneno) == 1){
+                                                        if(mobile_verify(new_phoneno) == 1){
 
                                                                 strcpy(addressbook->contacts[search_index].phone,new_phoneno);
                                                         }
