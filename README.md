@@ -11,7 +11,6 @@ A console-based Address Book Management System developed in C.
 - List all contacts
 - Validate mobile numbers
 - Validate Gmail addresses
-- Prevent duplicate phone numbers and email addresses
 - Store and retrieve contact data using CSV file handling
 
 ## Technologies Used
