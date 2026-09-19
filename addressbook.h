@@ -31,7 +31,6 @@ int gmail_verify(struct Addressbook *,char gmail[]);
 void search_by_name(struct Addressbook *,char name[]);
 void search_by_phone(struct Addressbook *,char phone[]);
 void search_by_gmail(struct Addressbook *,char gmail[]);
-/*int check_duplicate_mobile(struct Addressbook *,char mobile[]);*/
 
 
 #endif
