@@ -527,6 +527,9 @@ void edit_contact(struct Addressbook *addressbook)
     search_contact(addressbook);
 
     search_flag = 0;
+	  for(int i=0;i<100;i++){
+                        addressbook->index_record[i] = 0;
+                }
 }
 void push_data_to_file(struct Addressbook *addressbook, char *database)
 {
